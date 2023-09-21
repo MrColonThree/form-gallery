@@ -12,7 +12,7 @@ const MultipleForms = () => {
     console.log('login data', data)
   }
   return (
-    <div className="flex justify-center gap-20">
+    <div className="flex flex-wrap justify-center gap-20">
       <ReusableForm formTitle={"SignUp"} handleSubmit={handleSignUpSubmit}>
         <h1>Please sign up to join our community </h1>
       </ReusableForm>
