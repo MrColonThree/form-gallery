@@ -21,7 +21,7 @@ const Layout = () => {
             </div>
             <ul
               className={` bg-white border-2 lg:border-none shadow-lg lg:shadow-none rounded-bl-lg p-5 gap-2 lg:gap-10 flex flex-col lg:flex-row text-lg font-semibold duration-1000 absolute lg:static
-              ${open ? "top-28 right-8" : "-top-[400px] right-8"}`}
+              ${open ? "top-28 right-8" : "-top-[500px] right-8"}`}
             >
               <NavLink
                 to="/"
